@@ -1,0 +1,58 @@
+.content-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.results {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 300px;
+  padding: 0px 10px;
+  margin: 20px 20px;
+  border: 3px solid #262626;
+  border-radius: 20px;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.results:hover {
+  background-color: #262626;
+  color: #fff;
+}
+
+.error {
+  width: 300px;
+  padding: 10px 10px;
+  border: 3px solid red;
+  border-radius: 20px;
+  background-color: rgba(216, 89, 47, 0.1);
+  color: red;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.loading {
+  font-size: 50px;
+  margin: auto;
+  width: 100vw;
+  height: 100vh;
+  background-color: #262626;
+  color: #fff;
+  text-align: center;
+}
+
+.loading h2 {
+  margin-top: 300px;
+}
+/*# sourceMappingURL=main.css.map */

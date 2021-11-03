@@ -1,0 +1,47 @@
+.content-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.results {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 0px 10px;
+  margin: 20px 20px;
+  border: 3px solid #262626;
+  border-radius: 20px;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+  &:hover {
+    background-color: #262626;
+    color: #fff;
+  }
+}
+
+.error {
+  width: 300px;
+  padding: 10px 10px;
+  border: 3px solid red;
+  border-radius: 20px;
+  background-color: rgba(216, 89, 47, 0.1);
+  color: red;
+  align-items: center;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.loading {
+  font-size: 50px;
+  margin: auto;
+  width: 100vw;
+  height: 100vh;
+  background-color: #262626;
+  color: #fff;
+  text-align: center;
+
+  h2 {
+    margin-top: 300px;
+  }
+}
